@@ -37,6 +37,6 @@
     devShell92 = makeDevShell {with-hls = false; haskellPackages = pkgs.haskell.packages.ghc92; };
     devShell94 = makeDevShell {with-hls = false; haskellPackages = pkgs.haskell.packages.ghc94; };
     devShell96 = makeDevShell {with-hls = false; haskellPackages = pkgs.haskell.packages.ghc96; };
-    devShell = self.outputs.devShell92.${system};
+    devShell = self.outputs.devShell96.${system};
   });
 }
