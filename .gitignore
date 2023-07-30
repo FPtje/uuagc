@@ -7,3 +7,4 @@ dist-newstyle/
 cabal.project.local
 cabal.project.local~
 .stack-work
+.direnv
