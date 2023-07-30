@@ -20,6 +20,7 @@
           cabal-install
           (ghcWithPackages (self: with self; [
             uulib
+            minisat
             containers
             directory
             array
